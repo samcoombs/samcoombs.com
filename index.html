@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sam Coombs | Front-End Developer</title>
+
+    <link rel="icon" href="./icon/Portfolio Favicon.svg" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,600;0,700;1,600;1,700&family=Raleway:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./sass/main.css" />
+
+    <script src="./script.js" defer></script>
+  </head>
+
+  <header class="header">
+    <nav class="nav">
+      <div class="nav__logo">
+        <h3 class="nav__logo--name">Sam Coombs</h3>
+      </div>
+      <div class="nav__bar">
+        <ul class="nav__list">
+          <!-- <li class="nav__item">
+            <a href="#" class="nav__link">Home</a> -->
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- BURGER -->
+      <div class="burger">
+        <div class="burger__line burger__line-1"></div>
+        <div class="burger__line  burger__line-2"></div>
+        <div class="burger__line  burger__line-3"></div>
+      </div>
+    </nav>
+
+    <div class="intro">
+      <div class="intro__container">
+        <h1 class="intro__heading">
+          <span class="intro__heading--span">Hi</span>, I'm Sam.
+        </h1>
+        <h3 class="intro__sub">
+          I'm a Front-End Developer with a love for design and development
+        </h3>
+        <!-- <h3 class="intro__sub">
+          I'm a Front-End Developer with a passion for learning.
+        </h3> -->
+      </div>
+    </div>
+  </header>
+
+  <body>
+    <!-- SCROLL DOWN -->
+    <div class="scroll-down scroll-down__header">
+      <div class="scroll-down__text">My Work</div>
+      <div class="scroll-down__icon">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="feather feather-chevron-down"
+        >
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </div>
+    </div>
+
+    <!-- MY WORK -->
+    <section id="work" class="section-work">
+      <div class="work__container">
+        <div class="work__header">
+          <h2 class="section-header">My Work</h2>
+        </div>
+        <div class="work__images">
+          <!-- PROJECT 1 -->
+          <div class="work__images--1">
+            <div class="work__images--text">
+              <h3 class="work__images--heading">
+                Gap360
+              </h3>
+              <h5 class="work__images--languages">
+                HTML, SASS, JavaScript
+              </h5>
+              <p class="work__images--info">
+                Landing page inspired by the travel company Gap360
+              </p>
+
+              <div class="work__images--btns">
+                <a href="https://g360.netlify.app/" target="_blank" class="btn-live btn">Live Site</a>
+                <a href="https://github.com/samcoombs/Portfolio-G360" target="_blank" class="btn-github btn">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 2 -->
+          <div class="work__images--2">
+            <div class="work__images--text">
+              <h3 class="work__images--heading">
+                Coffee Corner Stop
+              </h3>
+              <h5 class="work__images--languages">
+                HTML, CSS, JavaScript
+              </h5>
+              <p class="work__images--info">
+                Modern website for a local coffee shop
+              </p>
+
+              <div class="work__images--btns">
+                <a href="https://coffeestop.netlify.app/" target="_blank" class="btn-live btn">Live Site</a>
+                <a href="https://github.com/samcoombs/CCS-landing" target="_blank" class="btn-github btn">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCROLL DOWN -->
+    <div class="scroll-down scroll-down-work">
+      <div class="scroll-down__text">Contact</div>
+      <div class="scroll-down__icon">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="feather feather-chevron-down"
+        >
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </div>
+    </div>
+
+    <section id="contact" class="section-contact">
+      <div class="contact__header">
+        <h2 class="section-header">Contact</h2>
+      </div>
+      <div class="contact__text">
+        <p class="contact__text--main">
+          Thank you for taking the time to look at my portfolio. If you're
+          interested in getting in touch, please send me an email. I look
+          forward to hearing from you!
+        </p>
+        <p class="contact__text--email">samcoombs11@gmail.com</p>
+      </div>
+    </section>
+  </body>
+  <footer class="footer">
+    <a href="https://github.com/samcoombs" target="_blank" class="footer__link">Github</h5>
+  </footer>
+</html>

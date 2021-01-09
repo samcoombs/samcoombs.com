@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+  font-family: $default-font-family;
+}
+
+.nav {
+  &__logo--name {
+    font-family: $secondary-font-family;
+    text-transform: uppercase;
+    // font-size: 2rem;
+    font-size: 3vh;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+}
+
+.intro {
+  &__heading {
+    // font-size: 4.5rem;
+    font-size: 6vh;
+    color: $color-grey-dark-1;
+    &--span {
+      color: $color-blue-middle-1;
+    }
+    animation: moveInRight 1s;
+  }
+
+  &__sub {
+    color: $color-grey-dark-1;
+    // font-size: 3rem;
+    font-size: 4vh;
+    font-weight: 500;
+    animation: moveInRight 1s;
+  }
+}
+
+.scroll-down {
+  &__text {
+    // font-size: 1.6rem;
+    font-size: 2.5vh;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+}
+
+.section-header {
+  // font-size: 3rem;
+  font-size: 4.5vh;
+  font-weight: 600;
+  color: $color-grey-dark-1;
+  text-align: center;
+}
+
+// WORK
+.work__header {
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+
+// CONTACT
+.contact {
+  &__text {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    // font-size: 2.2rem;
+    font-size: 3vh;
+    font-weight: 500;
+
+    &--main {
+      // margin-bottom: 2rem;
+      margin-bottom: 2vh;
+      color: $color-grey-dark-1;
+    }
+
+    &--email {
+      // font-size: 2.5rem;
+      font-size: 3vh;
+      text-decoration: none;
+      height: auto;
+      font-weight: 600;
+      color: $color-blue-middle-1;
+      transition: all 0.3s;
+
+      // &:hover {
+      //   color: $color-blue-light-1;
+      //   cursor: pointer;
+      // } ADD BACK AT LATER DATE
+    }
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .nav {
+    &__logo--name {
+      font-size: 2.5vh;
+    }
+  }
+
+  .intro {
+    &__sub {
+      font-size: 3vh;
+    }
+  }
+  .contact {
+    &__text {
+      font-size: 2vh;
+      &--email {
+        font-size: 1.8vh;
+      }
+    }
+  }
+}
