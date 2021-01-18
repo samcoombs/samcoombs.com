@@ -193,6 +193,21 @@
           justify-content: center;
 }
 
+.work__images--3 {
+  text-align: center;
+  color: #f2f2f2;
+  border-radius: 2vh;
+  width: 70vw;
+  height: 40vw;
+  background-image: url(../img/CottonOn-Thumbnail.jpg);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  margin-bottom: 8vh;
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
 .work__images--1 {
   text-align: center;
   color: #f2f2f2;
@@ -235,7 +250,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border-radius: 10px;
+  border-radius: 2vh;
   background-color: rgba(0, 0, 0, 0.2);
   -webkit-backdrop-filter: blur(10vh);
           backdrop-filter: blur(10vh);
