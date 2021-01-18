@@ -100,6 +100,10 @@
 @media only screen and (max-width: 768px) {
   .work {
     &__images {
+      &--3 {
+        width: 90vw;
+        height: 50vw;
+      }
       &--1 {
         width: 90vw;
         height: 50vw;

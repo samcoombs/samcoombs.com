@@ -289,6 +289,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .work__images--3 {
+    width: 90vw;
+    height: 50vw;
+  }
   .work__images--1 {
     width: 90vw;
     height: 50vw;
