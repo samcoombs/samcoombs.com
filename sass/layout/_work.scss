@@ -9,6 +9,19 @@
       display: flex;
       justify-content: center;
     }
+    &--4 {
+      text-align: center;
+      color: $color-grey-light-1;
+      border-radius: 2vh;
+      width: 70vw;
+      height: 40vw;
+      background-image: url(../img/OnwardTravel-Thumbnail.jpg);
+      background-position: center;
+      background-size: cover;
+      overflow: hidden;
+      margin-bottom: 8vh;
+      box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+    }
 
     &--3 {
       text-align: center;
@@ -100,6 +113,10 @@
 @media only screen and (max-width: 768px) {
   .work {
     &__images {
+      &--4 {
+        width: 90vw;
+        height: 50vw;
+      }
       &--3 {
         width: 90vw;
         height: 50vw;
