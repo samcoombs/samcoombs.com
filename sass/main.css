@@ -193,13 +193,28 @@
           justify-content: center;
 }
 
+.work__images--6 {
+  text-align: center;
+  color: #f2f2f2;
+  border-radius: 2vh;
+  width: 70vw;
+  height: 40vw;
+  background-image: url(../img/notwoways-Thumbnail.jpg);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  margin-bottom: 8vh;
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
 .work__images--5 {
   text-align: center;
   color: #f2f2f2;
   border-radius: 2vh;
   width: 70vw;
   height: 40vw;
-  background-image: url(../img/ThaiTerrace-Thumbnail.jpg);
+  background-image: url(../img/MonoFurniture-Thumbnail.jpg);
   background-position: center;
   background-size: cover;
   overflow: hidden;
@@ -319,6 +334,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .work__images--6 {
+    width: 90vw;
+    height: 50vw;
+  }
   .work__images--5 {
     width: 90vw;
     height: 50vw;
@@ -383,6 +402,8 @@
 }
 
 .footer__link {
+  padding-left: 1rem;
+  padding-right: 1rem;
   font-size: 2vh;
   text-transform: uppercase;
   color: #373737;
