@@ -22,7 +22,6 @@ const menuToggle = function () {
 };
 
 burgerMenu.addEventListener("click", menuToggle);
-navList.addEventListener("click", menuToggle);
 
 // SMOOTH SCROLL
 
