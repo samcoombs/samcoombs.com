@@ -193,58 +193,12 @@
           justify-content: center;
 }
 
-.work__images--6 {
+.work__images--img {
   text-align: center;
   color: #f2f2f2;
   border-radius: 2vh;
   width: 70vw;
   height: 40vw;
-  background-image: url(../img/notwoways-Thumbnail.jpg);
-  background-position: center;
-  background-size: cover;
-  overflow: hidden;
-  margin-bottom: 8vh;
-  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-}
-
-.work__images--5 {
-  text-align: center;
-  color: #f2f2f2;
-  border-radius: 2vh;
-  width: 70vw;
-  height: 40vw;
-  background-image: url(../img/MonoFurniture-Thumbnail.jpg);
-  background-position: center;
-  background-size: cover;
-  overflow: hidden;
-  margin-bottom: 8vh;
-  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-}
-
-.work__images--4 {
-  text-align: center;
-  color: #f2f2f2;
-  border-radius: 2vh;
-  width: 70vw;
-  height: 40vw;
-  background-image: url(../img/OnwardTravel-Thumbnail.jpg);
-  background-position: center;
-  background-size: cover;
-  overflow: hidden;
-  margin-bottom: 8vh;
-  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-}
-
-.work__images--3 {
-  text-align: center;
-  color: #f2f2f2;
-  border-radius: 2vh;
-  width: 70vw;
-  height: 40vw;
-  background-image: url(../img/CottonOn-Thumbnail.jpg);
   background-position: center;
   background-size: cover;
   overflow: hidden;
@@ -254,33 +208,19 @@
 }
 
 .work__images--1 {
-  text-align: center;
-  color: #f2f2f2;
-  border-radius: 2vh;
-  width: 70vw;
-  height: 40vw;
   background-image: url(../img/Gap360-Thumbnail.jpg);
-  background-position: center;
-  background-size: cover;
-  overflow: hidden;
-  margin-bottom: 8vh;
-  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .work__images--2 {
-  text-align: center;
-  color: #f2f2f2;
-  border-radius: 2vh;
-  width: 70vw;
-  height: 40vw;
-  background-image: url(../img/CCS-Thumbnail.jpg);
-  overflow: hidden;
-  background-position: center;
-  background-size: cover;
-  margin-bottom: 5rem;
-  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  background-image: url(../img/OnwardTravel-Thumbnail.jpg);
+}
+
+.work__images--3 {
+  background-image: url(../img/notwoways-Thumbnail.jpg);
+}
+
+.work__images--4 {
+  background-image: url(../img/MonoFurniture-Thumbnail.jpg);
 }
 
 .work__images--text {
@@ -334,27 +274,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .work__images--6 {
-    width: 90vw;
-    height: 50vw;
-  }
-  .work__images--5 {
-    width: 90vw;
-    height: 50vw;
-  }
-  .work__images--4 {
-    width: 90vw;
-    height: 50vw;
-  }
-  .work__images--3 {
-    width: 90vw;
-    height: 50vw;
-  }
-  .work__images--1 {
-    width: 90vw;
-    height: 50vw;
-  }
-  .work__images--2 {
+  .work__images--img {
     width: 90vw;
     height: 50vw;
   }
